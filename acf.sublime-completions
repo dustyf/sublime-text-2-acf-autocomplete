@@ -1,0 +1,26 @@
+{
+  "scope": "source.php - variable.other.php",
+
+  "completions":
+  [
+	{"trigger": "the_field", "contents": "the_field()" },
+	{"trigger": "get_field", "contents": "get_field()" },
+	{"trigger": "the_sub_field", "contents": "the_sub_field()" },
+	{"trigger": "get_sub_field", "contents": "get_sub_field()" },
+	{"trigger": "has_sub_field", "contents": "has_sub_field()" },
+	{"trigger": "get_row_layout", "contents": "get_row_layout()" },
+	{"trigger": "get_field_object", "contents": "get_field_object()" },
+	{"trigger": "the_repeater_field", "contents": "the_repeater_field()" },
+	{"trigger": "update_field", "contents": "update_field()" },
+	{"trigger": "get_fields", "contents": "get_fields()" },
+	{"trigger": "get_field_objects", "contents": "get_field_objects()" },
+	{"trigger": "the_flexible_field", "contents": "the_flexible_field()" },
+	{"trigger": "acf_settings", "contents": "add_filter('acf_settings', '');" },
+	{"trigger": "get_sub_field_object", "contents": "get_sub_field_object()" },
+	{"trigger": "get_field_object", "contents": "get_field_object()" },
+	{"trigger": "acf_add_options_sub_page", "contents": "acf_add_options_sub_page()" },
+	{"trigger": "acf_set_options_page_title", "contents": "acf_set_options_page_title()" },
+	{"trigger": "acf_set_options_page_capability", "contents": "acf_set_options_page_capability()" },
+	{"trigger": "acf_set_options_page_menu", "contents": "acf_set_options_page_menu()" }
+  ]
+}
