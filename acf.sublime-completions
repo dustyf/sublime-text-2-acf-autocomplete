@@ -3,31 +3,30 @@
 	"comment": "ACF Functions",
 	"completions":
 	[
-		{ "trigger" : "acf_add_options_page", "contents": "acf_add_options_page( ${1:\\$page} );" },
-		{ "trigger" : "acf_add_options_sub_page", "contents": "acf_add_options_sub_page( ${1:\\$page} );" },
-		{ "trigger" : "acf_form", "contents": "acf_form( ${1:\\$options} );" },
-		{ "trigger" : "acf_set_options_page_capability", "contents": "acf_set_options_page_capability( ${1:\\$capability} );" },
-		{ "trigger" : "acf_set_options_page_menu", "contents": "acf_set_options_page_menu( ${1:\\$menu_name} );" },
-		{ "trigger" : "acf_set_options_page_title", "contents": "acf_set_options_page_title( ${1:\\$title} );" },
-		{ "trigger" : "acf_settings", "contents": "add_filter( 'acf_settings', '${1:function_name}' );" },
-		{ "trigger" : "get_field", "contents": "get_field( ${1:\\$field_name}, ${2:\\$post_id}, ${3:\\$format_value} );" },
-		{ "trigger" : "get_field_object", "contents": "get_field_object( ${1:\\$field_key}, ${2:\\$post_id}, ${3:\\$options} );" },
-		{ "trigger" : "get_field_objects", "contents": "get_field_objects( ${1:\\$post_id} );" },
-		{ "trigger" : "get_fields", "contents": "get_fields( ${1:\\$post_id} );" },
+		{ "trigger" : "acf_add_options_page", "contents": "acf_add_options_page( ${1:\\$page} )" },
+		{ "trigger" : "acf_add_options_sub_page", "contents": "acf_add_options_sub_page( ${1:\\$page} )" },
+		{ "trigger" : "acf_form", "contents": "acf_form( ${1:\\$options} )" },
+		{ "trigger" : "acf_set_options_page_capability", "contents": "acf_set_options_page_capability( ${1:\\$capability} )" },
+		{ "trigger" : "acf_set_options_page_menu", "contents": "acf_set_options_page_menu( ${1:\\$menu_name} )" },
+		{ "trigger" : "acf_set_options_page_title", "contents": "acf_set_options_page_title( ${1:\\$title} )" },
+		{ "trigger" : "acf_settings", "contents": "add_filter( 'acf_settings', '${1:function_name}' )" },
+		{ "trigger" : "get_field", "contents": "get_field( ${1:\\$field_name}, ${2:\\$post_id}, ${3:\\$format_value} )" },
+		{ "trigger" : "get_field_object", "contents": "get_field_object( ${1:\\$field_key}, ${2:\\$post_id}, ${3:\\$options} )" },
+		{ "trigger" : "get_field_objects", "contents": "get_field_objects( ${1:\\$post_id} )" },
+		{ "trigger" : "get_fields", "contents": "get_fields( ${1:\\$post_id} )" },
 		{ "trigger" : "get_row_layout", "contents": "get_row_layout() == ${1:\\$value}" },
-		{ "trigger" : "get_sub_field", "contents": "get_sub_field( ${1:\\$sub_field_name} );" },
-		{ "trigger" : "get_sub_field_object", "contents": "get_sub_field_object( ${1:\\$field_key} );" },
-		{ "trigger" : "has_sub_field", "contents": "has_sub_field( ${1:\\$field_name}, ${2:\\$post_id} );" },
-		{ "trigger" : "have_rows", "contents": "have_rows( ${1:\\$field_name}, ${2:\\$post_id} );" },
-		{ "trigger" : "the_field", "contents": "the_field( ${1:\\$field_name}, ${2:\\$post_id} );" },
+		{ "trigger" : "get_sub_field", "contents": "get_sub_field( ${1:\\$sub_field_name} )" },
+		{ "trigger" : "get_sub_field_object", "contents": "get_sub_field_object( ${1:\\$field_key} )" },
+		{ "trigger" : "has_sub_field", "contents": "has_sub_field( ${1:\\$field_name}, ${2:\\$post_id} )" },
+		{ "trigger" : "have_rows", "contents": "have_rows( ${1:\\$field_name}, ${2:\\$post_id} )" },
+		{ "trigger" : "the_field", "contents": "the_field( ${1:\\$field_name}, ${2:\\$post_id} )" },
 		// Deprecated
 		// { "trigger" : "the_flexible_field", "contents": "the_flexible_field( ${1:\\$field_name', ${2:\\$post_id} );" },
 		// Deprecated
 		// { "trigger" : "the_repeater_field", "contents": "the_repeater_field( ${1:\\$field_name', ${2:\\$post_id} );" },
-		// Deprecated
-		// { "trigger" : "the_row", "contents": "the_row();" },
-		{ "trigger" : "the_sub_field", "contents": "the_sub_field( ${1:\\$sub_field_name} );" },
-		{ "trigger" : "update_field", "contents": "update_field( ${1:\\$field_key}, ${2:\\$value}, ${3:\\$post_id} );" },
-		{ "trigger" : "update_sub_field", "contents": "update_sub_field( ${1:\\$selector}, ${2:\\$value}, ${3:\\$post_id} );" }
+		{ "trigger" : "the_row", "contents": "the_row();" },
+		{ "trigger" : "the_sub_field", "contents": "the_sub_field( ${1:\\$sub_field_name} )" },
+		{ "trigger" : "update_field", "contents": "update_field( ${1:\\$field_key}, ${2:\\$value}, ${3:\\$post_id} )" },
+		{ "trigger" : "update_sub_field", "contents": "update_sub_field( ${1:\\$selector}, ${2:\\$value}, ${3:\\$post_id} )" }
 	]
 }
